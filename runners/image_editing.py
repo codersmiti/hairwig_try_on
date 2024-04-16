@@ -89,7 +89,8 @@ class Diffusion(object):
             elif self.config.data.category == "church_outdoor":
                 url = "https://image-editing-test-12345.s3-us-west-2.amazonaws.com/checkpoints/church_outdoor.ckpt"
         elif self.config.data.dataset == "CelebA_HQ":
-            url = "https://image-editing-test-12345.s3-us-west-2.amazonaws.com/checkpoints/celeba_hq.ckpt"
+            url = "/content/hairwig_try_on/checkpoints/celeba_hq.ckpt"
+
         else:
             raise ValueError
             
